@@ -1,7 +1,7 @@
 # Nexcent Landing Page
 
 This project is a responsive landing page design inspired by the **Nexcent** website layout.  
-It was created as part of **SMIT Femhack 2025** practice/module to improve frontend and UI implementation skills.
+It was created as part of practice to improve frontend and UI implementation skills.
 
 ---
 
@@ -35,7 +35,7 @@ The project follows a simple and clean folder structure to keep the code organiz
 
 ## 📸 Preview
 
-(https://hafsaimran12.github.io/Nexcent-Website/)
+https://hafsaimran12.github.io/Nexcent-Website/
 
 ---
 

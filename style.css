@@ -10,7 +10,8 @@
   --text-color: #4d4d4d;
   --paragraph-color: #717171;
   --footer-color: #263238;
-  --light-grey-color: #2f3a3f;
+  --light-grey-color: #5C656A;
+  --plane-color: #D9DBE1;
 }
 
 /* navbar */
@@ -75,26 +76,14 @@
   background-color: var(--footer-color);
 }
 
-.email-box {
-  padding: 4px;
-  max-width: 280px;
-  border-radius: 8px;
-}
-
-.email-input {
-  border: none;
+.email{
   background-color: var(--light-grey-color);
-  color: #fff;
 }
 
-.email-input::placeholder {
-  color: #cfcfcf;
+.plane{
+  padding-right: 30px;
 }
 
-.email-icon {
-  width: 100%;
-  background-color: var(--light-grey-color);
-  border: none;
-  color: #fff;
-  cursor: pointer;
+.email::placeholder{
+  color: var(--plane-color);
 }

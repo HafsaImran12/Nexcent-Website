@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse gap-5" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center links">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Features</a>
@@ -107,7 +107,7 @@
       <p class="para-grey">
         We have been working with some Fortune 500+ clients
       </p>
-      <div class="row row-cols-3 row-cols-lg-6 g-3 pt-lg-5">
+      <div class="row g-3 pt-lg-5">
         <div class="col">
           <img src="./images/client1.png" alt="Clients Logo" />
         </div>
@@ -125,6 +125,9 @@
         </div>
         <div class="col">
           <img src="./images/client6.png" alt="Clients Logo" />
+        </div>
+        <div class="col">
+          <img src="./images/client3.png" alt="Clients Logo" />
         </div>
       </div>
     </div>
@@ -204,7 +207,7 @@
             />
           </div>
           <div class="col-lg-6">
-            <h2 class="display-5 fw-bold text-grey lh-1 mb-3">
+            <h2 class="display-5 fw-bold text-grey lh-4 mb-3">
               The unseen of spending three years at Pixelgrade
             </h2>
             <p class="lead para-grey">
@@ -245,9 +248,9 @@
                 >
                   <img src="./images/Icon4.png" alt="Icon" />
                 </div>
-                <div class="text">
+                <div class="text d-flex flex-column justify-content-center ">
                   <h4 class="fw-semibold mb-0 text-body-emphasis">2,245,341</h4>
-                  <p class="text-body-secondary">Members</p>
+                  <p class="para-grey mb-0">Members</p>
                 </div>
               </div>
               <div class="col d-flex gap-2">
@@ -256,9 +259,9 @@
                 >
                   <img src="./images/Icon5.png" alt="Icon" />
                 </div>
-                <div class="text">
+                <div class="text d-flex flex-column justify-content-center m-0">
                   <h4 class="fw-semibold mb-0 text-body-emphasis">46,328</h4>
-                  <p class="text-body-secondary">Clubs</p>
+                  <p class="para-grey mb-0">Clubs</p>
                 </div>
               </div>
               <div class="col d-flex gap-2">
@@ -267,9 +270,9 @@
                 >
                   <img src="./images/Icon6.png" alt="Icon" />
                 </div>
-                <div class="text">
+                <div class="text d-flex flex-column justify-content-center m-0">
                   <h4 class="fw-semibold mb-0">828,867</h4>
-                  <p>Event Bookings</p>
+                  <p class="para-grey mb-0">Event Bookings</p>
                 </div>
               </div>
               <div class="col d-flex gap-2">
@@ -278,9 +281,9 @@
                 >
                   <img src="./images/Icon7.png" alt="Icon" />
                 </div>
-                <div class="text">
+                <div class="text d-flex flex-column justify-content-center m-0">
                   <h4 class="fw-semibold mb-0 text-grey">1,926,436</h4>
-                  <p class="para-grey">Payments</p>
+                  <p class="para-grey mb-0">Payments</p>
                 </div>
               </div>
             </div>
@@ -384,24 +387,20 @@
           <!-- email -->
           <div class="col mb-3">
             <h4>Stay up to date</h4>
-            <div class="email-box">
-              <div class="input-group">
-                <input
-                  type="email"
-                  placeholder="Your email address"
-                  class="form-control email-input"
-                />
-                <span
-                  ><i class="fa-regular fa-paper-plane email-icon pb-4 px-2"></i
-                ></span>
-              </div>
+            <div class="d-flex w-100 rounded-3 email mt-3">
+              <input
+                id="newsletter1"
+                type="email"
+                class="form-control email border-0"
+                placeholder="Your email address"
+              />
+              <i class="fa-regular fa-paper-plane d-flex align-items-center plane" style="color: #fff;"></i>
             </div>
           </div>
         </footer>
       </div>
     </div>
     <!-- Footer end -->
-
     <script src="bootstrap.js"></script>
   </body>
 </html>
